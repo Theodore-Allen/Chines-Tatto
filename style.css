@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Myeongjo&family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
+
+
+:root{
+
+    --Primary: #ba293f;
+    --background: #f5f2ea;
+    --action: #F03854; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: var(--background);
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+@media (max-width: 902px) 
+{
+.txt-container{
+    scale: .7;
+}
+.btn-container{
+    scale: 0.8;
+}
+}
+.header-container{
+   
+   
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+
+    text-align: center;
+    color: var(--Primary);
+    font-size: 2rem;
+    font-weight: 500;
+ 
+
+
+
+flex:0.6
+}
+.header-container h2
+{
+    font-size: 2rem;
+
+    margin-top: -17px;
+    letter-spacing: 2px;
+    color: rgb(180, 145, 145);
+}
+.btn-container{
+    display: flex;
+   flex: 2.5;
+    gap: 13px;
+   justify-content: center;
+   align-items: center;
+
+  
+}
+.txt-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+    padding: 0 20px;
+    gap: 3.3rem;
+    background-color: var(--background);
+}
+.symbol-container
+{
+
+}
+@keyframes in {
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 0.5;
+    }
+
+}
+@keyframes out {
+    0%{
+        scale: 0.5;
+    }
+    100%{
+        scale: 1;
+    }
+
+}
+.random-btn image
+{
+    stroke: #F03854;
+    fill: #F03854;
+}
+
+#random-btn
+{
+    border-radius: 100%;
+    padding: 1.5rem;
+    border:10px solid var(--action);
+    transition: all 0.3s  ease-in-out;
+}
+.random-btn
+{
+    border-radius: 100%;
+    padding: 1.5rem;
+    border:10px solid var(--action);
+    transition: all 0.3s  ease-in-out;
+}
+#random-btn:hover{
+    scale: 1.2;
+    box-shadow: rgba(0, 0, 0, 0.276) 0 0 10px;
+}
+.random-btn:hover{
+    scale: 1.2;
+    box-shadow: rgba(0, 0, 0, 0.276) 0 0 10px;
+}
+.symbol{
+    color: var(--Primary);
+ font-size: 9.8rem;
+ font-weight: 520;
+ text-shadow: 10px 10px 0 #ba293f62;
+ 
+}
+.meaning{
+color: #ba293fc4;
+text-align: center;
+font-size:2.3rem;
+font-weight: 540;
+letter-spacing: 0.4rem;
+}
+.symbol-container span
+{
+
+display: block;
+}
