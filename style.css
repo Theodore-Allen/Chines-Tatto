@@ -11,7 +11,11 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    width: 100vw;
+    height: 100vh;
+  
+}
 .container{
     display: flex;
     background-color: var(--background);
@@ -22,7 +26,7 @@
 @media (max-width: 902px) 
 {
 .txt-container{
-    scale: .7;
+    scale: .6;
 }
 .btn-container{
     scale: 0.8;
